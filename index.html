@@ -1,72 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-
-<style>
-body {
-background-color:lightblue;
-}
-
-h1 {
-color:black;
-font-family. verdana;
-}
-
-p{
-font-family. verdana;
-font-size:15px;
-}
-
-a:link {
-    color: green; 
-    background-color: transparent; 
-    text-decoration: none;
-}
-
-a:visited {
-    color: purple;
-    background-color: transparent;
-    text-decoration: none;
-	font-family. verdana;
-font-size:15px;
-}
-
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-	font-family. verdana;
-font-size:15px;
-}
-
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-	font-family. verdana;
-font-size:15px;
-</style>
-
-<title>SBCs Single Board Computers</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<h1>Mikä on SBC?</h1>
-<p>SBC on yhden piirilevyn tietokone. Yleensä se on pienikokoinen sekä melko edullinen</p>
-<h1>Mitä SBC:llä voi tehdä?</h1>
-<p>Yleensä SBC:ssä on GPIO-pinnit, joihin liitetään hyppylangat ja näin voidaan luoda elektroniikan sovelluksia</p>
-<h1>Miksi meillä on SBC-koneita nykyään?</h1>
-<p>Tietotekniikka kehittyy, pienenee ja tulee entistä tehokkaammaksi ja halvemmaksi kuin ennen.</p>
-<h1>Saat lisätietoja napsauttamalla alta</h1>
-<ul>
-<li><a href="raspi_zero_tiny.jpg">Raspi_zero_tiny</a><br>
-<li><a href="arduino.html">Arduino Uno</a><br>
-<li><a href="linkit.html">Linkit</a><br><br>
-</ul>
+<div class="jumbotron text-center">
+  <h1>Tervetuloa responsiivisille sivuille</h1>
+ 
+  <p>Kokeile sivuja tietokoneella, tabletilla ja puhelimella!</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Personal Computer</h3>
+	  <p>Responsiiviset www-sivut ovat google-hakukoneen suosiossa...</p>
+	  <img class="img-responsive" src="pc2.png" alt="Personal Computer">
+      
+      
+    </div>
+    <div class="col-sm-4">
+      <h3>Tabletti</h3>
+	  <p>Resoluution laskiessa sivu skaalautuu ...</p>
+	   <img class="img-responsive" src="tabletti.png" alt="Tabletti">
+      
+      
+    </div>
+    <div class="col-sm-4">
+      <h3>Mobiili</h3>   
+	   <p>Kännykässä responsiivinen materiaali näkyy ylhäältä alas...</p>
+ <img class="img-responsive" src="phone.png" alt="Kännykkä">	  
+      
+      
+    </div>
+  </div>
+</div>
 
-<img src="raspi_zero_tiny.jpg" alt="raspi" style="width:500px;height:600px;"> 
 </body>
 </html>
-
-
